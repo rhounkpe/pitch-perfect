@@ -34,6 +34,7 @@
                                 <state key="normal" title="Stop recording"/>
                                 <connections>
                                     <action selector="stopRecording:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lso-RN-7V7"/>
+                                    <action selector="stopRecordingButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V3C-T6-t81"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -49,7 +50,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="recordButton" destination="mbr-TY-1eT" id="pJU-1x-Mxs"/>
                         <outlet property="recordingLabel" destination="V4s-I7-X0w" id="GB8-RJ-5Vc"/>
+                        <outlet property="stopRecordingButton" destination="0ZL-Kw-B6E" id="3Sr-hs-Ooy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

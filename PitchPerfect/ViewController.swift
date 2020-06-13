@@ -16,6 +16,23 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBOutlet weak var recordButton: UIButton!
+    
+    
+    @IBOutlet weak var stopRecordingButton: UIButton!
+    
+    
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        print("viewWillAppear called")
+    }
+    
+    /*
+    override func viewDidAppear(_ animated: Bool) {
+        <#code#>
+    }
+ */
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
