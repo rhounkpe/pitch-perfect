@@ -29,9 +29,9 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ZL-Kw-B6E">
-                                <rect key="frame" x="156" y="588.5" width="102" height="30"/>
-                                <state key="normal" title="Stop recording"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ZL-Kw-B6E">
+                                <rect key="frame" x="129.5" y="588.5" width="155" height="155"/>
+                                <state key="normal" image="Stop"/>
                                 <connections>
                                     <action selector="stopRecording:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lso-RN-7V7"/>
                                     <action selector="stopRecordingButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V3C-T6-t81"/>
@@ -62,5 +62,6 @@
     </scenes>
     <resources>
         <image name="RecordButton" width="155" height="155"/>
+        <image name="Stop" width="155" height="155"/>
     </resources>
 </document>
