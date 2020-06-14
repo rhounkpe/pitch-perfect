@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  RecordSoundsViewController.swift
 //  PitchPerfect
 //
 //  Created by Rufin Hounkpe on 05/06/2020.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class RecordSoundsViewController: UIViewController {
 
     @IBOutlet weak var recordingLabel: UILabel!
     @IBOutlet weak var recordButton: UIButton!
@@ -19,17 +19,19 @@ class ViewController: UIViewController {
         stopRecordingButton.isEnabled = false
     }
     
+    /*
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         print("viewWillAppear called")
     }
+ */
     
-
+/*
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+*/
     @IBAction func recordAudio(_ sender: Any) {
         recordingLabel.text = "Recording in progress..."
         stopRecordingButton.isEnabled = true
