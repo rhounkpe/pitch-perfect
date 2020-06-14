@@ -30,13 +30,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func recordAudio(_ sender: AnyObject) {
+    @IBAction func recordAudio(_ sender: Any) {
         recordingLabel.text = "Recording in progress..."
         stopRecordingButton.isEnabled = true
         recordButton.isEnabled = false
     }
     
-    @IBAction func stopRecording(_ sender: AnyObject) {
+    @IBAction func stopRecording(_ sender: Any) {
         recordButton.isEnabled = true
         stopRecordingButton.isEnabled = false
         recordingLabel.text = "Tap to Record"
